@@ -4,6 +4,9 @@
 
 #  RUN ALL LINES
 
+#Subfolder to store the output results
+dir.create(file.path("raw_data"))
+
 #Countries
 source("libraries/data_update/S_COUNTRIES2.R")
 

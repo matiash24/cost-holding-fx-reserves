@@ -7,8 +7,8 @@
 # Install and load packages
 source("libraries/Load_packages.R")
 
-# Must have one! Please, refer yourself to the 'README' file
-source("stlouis_api_key.R")
+# Must have one! Available at: https://research.stlouisfed.org/docs/api/api_key.html. Please, refer yourself to the 'README' file
+api.key <- dlgInput("Insert your personal API key (no quotes):", Sys.info()["user"])$res
 
 # Download data from public warehouses and save it in folder 'raw_data'
 source("libraries/data_update/Data_Update.R")

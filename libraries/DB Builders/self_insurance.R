@@ -1,6 +1,7 @@
 
 #TODO: ADD AN INTRO
-
+#Creation of output folder
+dir.create(file.path("Outputs"))
 
 
 #################################################################

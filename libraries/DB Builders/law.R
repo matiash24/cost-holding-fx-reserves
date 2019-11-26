@@ -12,7 +12,7 @@
 ######################################################################
 
 
-#lectura de la data ifm
+#reading IMF data
 my_df <- read_csv2("raw_data/Reserves_NER.csv") %>% as_tibble()
 # my_df$date <- as.Date(my_df$date)
 # str(my_df)
